@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center|top"
+        android:padding="5px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5px"
+            android:paddingBottom="5px"
+            android:text="Vision “Enrich Life Through Power”
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:layout_height="wrap_content"
+            android:paddingTop="5px"
+            android:paddingBottom="5px"
+            android:text="OUR MISSION" />
+
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5px"
+            android:paddingBottom="5px"
+            android:text="Mission
+To develop and maintain an efficient, coordinated and economical system of electricity supply to the whole of Sri Lanka, while adhering to our core values
+
+    Quality
+    Service to the nation
+    Efficiency and effectiveness
+    Commitment
+    Safety
+    Professionalism
+    Sustainability"/>
+
+
+        <TextView
+            android:gravity="left"
+            android:paddingTop="5px"
+            android:paddingBottom="5px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor eros laoreet tellus laoreet, eget consequat risus convallis. Vestibulum convallis tortor nisl, in gravida eros elementum quis. Integer pharetra, tortor sit amet ultricies tempor, mi nisl vulputate eros, nec rhoncus tellus lectus nec orci. Aenean aliquam, ante at viverra eleifend, eros sapien sagittis ante, interdum commodo lacus tortor et lorem. Pellentesque convallis blandit ex, vel condimentum lacus porta a. Nulla facilisi. Nullam interdum turpis vel tellus viverra vehicula.
+
+        Sed accumsan, lectus et blandit eleifend, massa ex hendrerit leo, eget sodales lorem ligula vel nulla. Morbi molestie volutpat quam nec auctor. Ut lacinia rutrum ligula, eu tincidunt est tempor vitae. Phasellus facilisis arcu dolor, sagittis condimentum nisl euismod eget. Praesent tortor lorem, tempus ac enim quis, rutrum vestibulum arcu. Aliquam blandit nunc nunc, quis bibendum velit accumsan a. Phasellus id lorem id sem laoreet rutrum in ut lacus. Aliquam erat volutpat. Pellentesque ultrices fringilla quam, ac scelerisque eros tempus id. Vivamus vel consequat tellus. " />
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX=".5"
+                    android:scaleY=".5"
+                    android:layout_gravity="center|left"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="15dp"
+                    android:src="@drawable/ruhunalogo"
+                    android:adjustViewBounds="true" />
+
+                <TextView
+                    android:gravity="left"
+                    android:paddingTop="5px"
+                    android:paddingBottom="5px"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ceylon Electricity Board (CEB) Digital Billing System and Ceylon Electricity Board (CEB) Self Care App are prototypes of a final year project (FYP) of University of Ruhuna." />
+
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5px"
+            android:paddingBottom="5px"
+            android:text="Copyright © University of Ruhuna" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send your feedback to university of Ruhuna" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="License details" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Credits" />
+        </LinearLayout>
+</ScrollView>
